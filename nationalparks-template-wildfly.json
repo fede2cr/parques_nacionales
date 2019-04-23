@@ -25,7 +25,7 @@
       {
          "description": "Git source URI for application",
          "name": "GIT_URI",
-         "value": "https://gitlab.com/jorgemoralespou/openshift3nationalparks.git"
+         "value": "https://github.com/fede2cr/parques_nacionales.git"
       },
       {
          "description": "Git branch/tag reference",
