@@ -35,7 +35,7 @@
 <div id="map"></div>
 <script>
 
-	center = new L.LatLng(47.039304, 14.505178);
+	center = new L.LatLng(9.6969, -83.8889);
 	zoom = 5;
 	var map = L.map('map').setView(center, zoom);
 	//var markerLayerGroup = L.layerGroup().addTo(map);
@@ -69,6 +69,13 @@
 			marker.bindPopup(popupInformation);
 			markers.addLayer(marker);
 		}
+
+
+		var popupInformation = "<b>" + "Isla del COCO - Proyecto Greencore IOT :) " + "</b></br>";
+
+	    var marker = L.marker([5.5285, -87.0701]);
+		marker.bindPopup(popupInformation);
+		markers.addLayer(marker);
 
 
 		//markerLayerGroup = L.layerGroup(markerArray).addTo(map);
